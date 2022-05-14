@@ -838,6 +838,9 @@ EOF
 	exit ;;
     *:Interix*:*)
 	case ${UNAME_MACHINE} in
+		sw_64)
+		echo shenwei
+		exit ;;
 	    x86)
 		echo i586-pc-interix${UNAME_RELEASE}
 		exit ;;
